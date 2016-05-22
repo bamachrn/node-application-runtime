@@ -8,3 +8,4 @@ RUN npm install bower grunt -g
 ADD firstRun.sh /firstRun.sh
 RUN chmod a+x /firstRun.sh
 Add runApp.sh /runApp.sh
+RUN chmod a+x /runApp.sh
